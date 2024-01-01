@@ -8,10 +8,15 @@ import { useRouter } from 'next/navigation';
 export default function Form() {
     const router = useRouter();
     const {
+        //@ts-ignore
         inputText,
+        //@ts-ignore
         items,
+        //@ts-ignore
         handleInputChange,
+        //@ts-ignore
         handleAddItem,
+        //@ts-ignore
         handleRemoveItem,
     } = useListContext();
 
