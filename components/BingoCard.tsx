@@ -59,7 +59,7 @@ export default function BingoCard() {
                 </span>
             ))}
             {randomizedItems.map((item: string, index: number) => (
-                <div key={index} className='flex justify-center items-center bg-zinc-300 dark:bg-zinc-800 rounded-lg p-2 h-32 w-32 font-semibold text-center capitalize'>
+                <div key={index} className='text-sm md:text-base flex justify-center items-center bg-zinc-300 dark:bg-zinc-800 rounded-lg p-2 md:h-32 md:w-32 md:font-semibold text-center capitalize'>
                     {item}
                 </div>
             ))}

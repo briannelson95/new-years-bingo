@@ -6,7 +6,7 @@ export default function page() {
 
     return (
         <main>
-            <section className="flex min-h-screen flex-col items-center p-24">
+            <section className="flex min-h-screen flex-col items-center px-4 my-14 md:p-24">
                 <BingoCard />
             </section>
         </main>
